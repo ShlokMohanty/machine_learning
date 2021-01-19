@@ -1,0 +1,12 @@
+searches for relationships among variables.
+To answer whether and how some phenomenon influences the other on how several variables are related.
+It is a statistical approach for modelling relationship between a dependent variable with a given set of independent variable.
+
+Simple Linear Regression:
+1)Approach for predicting a response using a single feature.
+2)Equation of regression line:
+Y = b0 + b1*X + e
+where Y-> dependent variable 
+      b0-> intercept on Y
+      b1-> regression coefficient
+      X-> independent variable
