@@ -1,0 +1,50 @@
+Linear Regression Line:
+A linear line showing the relationship between the dependent and independent variable is called a regression line.
+Types of relations in the regression line:
+1) Positive Linear relationship 
+2) Negative Linear Relationship
+
+1) Positive Linear Relationship--> increase in both the x and y axes independent variables and dependent variables respectively.
+2) Negative Linear Relationship--> when there is increase in the x axis and decrease in the y axis that is independent and dependent variable respectively.
+
+Finding the best fit line :
+basically our main focus in the best fit line is that the error between the predicted value and the actual value should be minimized.
+The best fit line will have the minimum error
+why the word "cost function " is used in machine learning and that in linear regression?
+
+ans: to find the best values for the coefiicients (a0 and a1 ) in linear regression for example y= a0 + a1x (a0 and a1 are coefficients )
+and this will further help us to find the best fit .
+
+what are the benefits of using the cost function?
+ans:
+optimizes the regression coefficients 
+measures how a linear regression model is performing.
+
+find the accuracy of mapping function-->maps the input variable with the output variable.
+In linear regression we use the mean squared error between the predicted value and the actual value .
+
+what are residuals ?
+ans:
+The distance between the predicted and the actual value .
+If the observed points will be far away from the regression line then the residual will be high
+and if the observed points are close to the regression line then the residuals are low and so the cost function.'
+
+Gradient Descent:
+it is used to minimize the Mean Squared Error by calculating the gradient of the cost function.
+to update the coefficients of the line by reducing the cost function.
+random selection of values of coeeficients and then iteratively update the values to reach the minimum cost function.
+
+Model Performance:
+Optimizations: to find the best out of the various models 
+1) R-Squared Method:
+determines goodness of fit.
+measures the strength of the relationship between the dependent and independent variables on a scale of 0-100%
+The high value of R-Squared method shows less difference between the predicted and the actual value and hence represents it as a good model.
+it is also called coefficient of determination and coefficient of multi determination for multiple regression.
+R-squared = expected variation/ total variation
+
+Assumptions of Linear Regression :
+1) Linear relationship between the features and the target.
+2) small or no multicolinearities between the features.
+3) Homoscedactisity assumption:
+4) 
