@@ -10,3 +10,10 @@ where Y-> dependent variable
       b0-> intercept on Y
       b1-> regression coefficient
       X-> independent variable
+      e--->some kind of error 
+      
+Types of Linear Regressions:
+1) simple Linear Regression: If a single independent variable is used to depict the value of a numerical dependent variable then it is called as Simple Linear Regression.
+2) Multiple Linear Regression: If more than one independent variable is used to predict the value of the numerical dependent variable then it is known as Multiple 
+Linear Regression.
+
