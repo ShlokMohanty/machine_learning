@@ -9,8 +9,8 @@ from glob import glob
 import matplotlib.pyplot as plt
 IMAGE_SIZE = [224, 224]
 
-train_path = 'Datasets/Train'
-valid_path = 'Datasets/Test'
+train_path = '/content/drive/MyDrive/Colab Notebooks/ Original Images/Datasets/ Training Set'
+valid_path = '/content/drive/MyDrive/Colab Notebooks/ Original Images/Datasets/ Testing Set'
 
 # add preprocessing layer to the front of VGG
 resnet = ResNet50(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False)
