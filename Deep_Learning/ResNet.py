@@ -22,7 +22,7 @@ for layer in resnet.layers:
 
   
   # useful for getting number of classes
-folders = glob('Datasets/Train/*')
+folders = glob('/content/drive/MyDrive/Colab Notebooks/ Original Images/Datasets/ Training Set')
   
 
 # our layers - you can add more if you want
