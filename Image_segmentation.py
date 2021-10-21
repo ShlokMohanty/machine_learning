@@ -18,3 +18,5 @@ for i in range(gray_r.shape[0]):
     gray_r[i]=0
 gray = gray_r.shape(gray.shape[0],gray.shape[1])
 plt.imshow(gray, cmap='gray')
+gray = rgb2gray(image)
+gray_r=gray.reshape(gray.shape[0]*gray.shape[1])
