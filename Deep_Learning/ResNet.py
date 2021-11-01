@@ -70,16 +70,16 @@ test_set = test_datagen.flow_from_directory('Datasets/Test',
                          nb_val_samples = 2000)'''
 
 # fit the model
-r = model.fit_generator(
-  training_set,
-  validation_data=test_set,
-  epochs=5,
-  steps_per_epoch=len(training_set),
-  validation_steps=len(test_set)
+#r = model.fit_generator(
+ # training_set,
+  #validation_data=test_set,
+  #epochs=5,
+  #steps_per_epoch=len(training_set),
+  #validation_steps=len(test_set)
 )
 # loss
-plt.plot(r.history['loss'], label='train loss')
-plt.plot(r.history['val_loss'], label='val loss')
+#plt.plot(r.history['loss'], label='train loss')
+#plt.plot(r.history['val_loss'], label='val loss')
 plt.legend()
 plt.show()
 plt.savefig('LossVal_loss')
