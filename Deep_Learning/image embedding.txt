@@ -1,0 +1,46 @@
+Image Embedding :
+
+inputs :
+images : list of images 
+
+outputs:
+1) Embeddings: Images represented with a vector of numbers.
+2) skipped images : List of images where embeddings were not calculated 
+Image Embedding : reads images and uploads them to remote server or evaluate them locally.
+Deep learning models are used to calculate a feature vector for each image . It returns an enhanced data table 
+with additional columns(image descriptors).
+
+what is image recognition ?
+it is trained on the ImageNet dataset.
+
+what is the activation of the penultimate layer of the model ,which represents images with vectors ?
+
+actual meaning of image embedding :
+Embedding is the process of converting the high-dimensional data to low-dimensional data in the form of a vector 
+in such a way that the two are semantically similar.
+
+"embedding" refers to an extract(portion) of anything.
+embedding improve the effeciency and usability of machine learning models and can be utilised  with other types 
+of models as well.
+When dealing with massive amounts of data to train,building machine learning models is a nuisance.
+
+Basic purpose of embedding :
+DNN can be trained to generate embeddings and then utilised to build another embedding for a different set of data 
+Embeddings of neural networks are advantageous because they can lower the dimensionality of categorical 
+variables 
+
+basic purposes exist for neural network embeddings:
+1) embedding space's nearest neighbours.These can be used to provide suggestions based on the users interests 
+or cluster classifications.
+
+2) As input to a machine learning model for the purpose of performing a supervised task.
+
+3) For the purpose of visualising concepts and the relationships between the categories.
+
+Benefits of Embedding :
+1) filter mechanism in a recommmendation system.
+purpose of the item simalrity use cases is to aid in the develoopment of such systems.
+Another goal is to keep data as simple as possible for training and prediction.
+
+Text Embedding :
+block converts a string of characters to a vector of real values.
