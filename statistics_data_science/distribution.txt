@@ -1,0 +1,51 @@
+1) Numbers that describe what is the average or the type of distribution a certain data set represents.
+2) It may also be called as center or location of the distribution .
+3) tendency of quantitative data to cluster around some central value.
+4) measure of central tendency is an important aspect of quantitative data .
+5) estimate of a typical value .
+
+why need to measure of central tendency ?
+
+purpose of measures of central tendency is :
+1) To identify the location of the center of various distributions .
+2) Measure of central tendency gives us one value of the distribution and the value represents the entire 
+distribution.
+3) To condense data sets.
+4) to make comparisons:
+  1) to compare 2 or more distributions 
+5) Helpful in further statistical analysis :
+  1) Statistical Analysis techniques such as Measure of dispersion, Measure of skewness, 
+  Measure of correlation , etc, use measure of central tendency.
+  
+Calculate the measure central tendency :
+1) The mean 
+2) the median 
+3) the mode 
+
+mean --> the average of the data .
+median --> teh score that divides the distribution into :
+  1) Two equal parts 
+  2) So half the cases are above it and half below it .
+median is the middle score , or average of middle scores in a distribution.
+
+Odd number of Observations :
+formula : Median = {(n+1)/2}th term
+
+Even :
+Median = [(n/2)th term + {(n/2)+1}th]/2
+
+Mode --> category or score with the largest frequency in the distribution .
+mode can be calculated for variables with the levels of measurement that are :
+1) nominal
+2) Ordinal 
+3) interval-ratio
+
+Mode : An Example 
+Number of Votes for candidates for Mayor .
+
+Candidate A ---> 11769 votes 
+Candidate B----> 39443 votes
+Candidate C----> 78331 Votes
+
+Mode--> Candidate C
+
