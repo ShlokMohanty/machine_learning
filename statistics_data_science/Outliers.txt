@@ -1,3 +1,24 @@
 One shortcoming of the mean is that means are easily affected by extreme values .
 Measures that are not affected by extreme values are called resistant.
 Measures that are  affected by extreme values are called as sensitive.
+The medians of tyhe two sets are not different . Therefore the median is not that affected by the 
+extreme value 9.
+
+The mean is a sensitive measure(or sensitive statistic) and the median is a resistant measure(or resistant statistic).
+
+Adding and multiplying constants:
+1) Adding a constant to each element in a data set will increase the mean by that constant .
+2) Multiplying a constant to each element in a dataset will increase the factor of that constant.
+
+
+Looking Ahead :
+why de we want to know this ?
+
+ans: in applied statistics such as regression , ANOVA  we work with the concept of transforming 
+data.
+
+For many applied statistics methods, a required assumption is that the data is normal, a very 
+near bell-shaped .
+
+when the data is not normal, statisticians will transform the data using numerous techniques .
+
