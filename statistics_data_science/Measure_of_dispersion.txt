@@ -1,0 +1,33 @@
+Measure of Spread:
+
+1) Purpose of identifying central value from a dataset is :
+  1) to describe a typical or central value in the dataset .
+  
+Measure of Spread :
+1) With measure of spread out main focus is around :
+  1) To calculate how "spread out" our dataset is.
+
+There are three measures of spread :
+1) Range 
+2) Variance 
+3) Standard Deviation
+
+Range :
+Range of a variable is simply:
+  1) distance between teh largest and the smallest value.
+  
+  Range = Largest Data Value - Smallest Data Value
+  
+  if largest/ smallest value change then the range also changes .
+  this means taht range is sensitive to outliers .
+  
+  Variance :
+
+The Variance of a dataset is a numerical summary that 
+1) indicates the average deviation of each data value from the mean of teh dataset.
+
+The calculation of variance requires us to :
+  1) Copare each data value from our raw dataset to the mean .
+  
+ The idea of variance is :
+just the difference of values from the dataset from teh mean .
