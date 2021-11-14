@@ -1,0 +1,28 @@
+Symmetric:
+
+1) mean , median , mode are all the same here 
+2) no skewness is apparent 
+3) the distribution is described as symmetric 
+
+Left skewed or skewed left :
+
+1) mean < median 
+2) long tail on the left 
+
+Right-skewed or skewed right :
+
+1) mean > median 
+2) long tail on the right 
+
+considerations for choosing a measure of central tendency :
+1) for a nominal variable the mode is only measure that can be used .
+2) For ordinal variables, the mode and the median may be used.The median provides more information 
+(taking into account the ranking of categories)
+
+3) For interval-ratio variables , the mode, median and the mean may all be calculated .
+Mean provides the most information about the distribution , but the median is preferred if the distribution is skewed .
+
+Level of Measurement ----> 
+1) Nominal -------------------> Mode
+2) Ordinal ----------> Research Objective ------> Mode, Median 
+3) Interval-Ratio -----> Shape of Distribution ----> skewed, symmetrical --> skewed---> Research Objective---> Mode, Median Symmetrical--> Research Objective ---> Mode, Median, Mean
