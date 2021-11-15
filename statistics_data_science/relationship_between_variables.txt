@@ -1,0 +1,27 @@
+Types of variables :
+1) in case ofn two variables:
+  1) predictor variable could be used to explain the other (dependent variable)
+  2) One variable could be though of as causing the other variable to change.
+  
+ A response variable measures an outcome of a study(think y-value or dependent variable)
+ An exploratory variable explains or influences changes in a response variable(think x-value or independent variable)
+ 
+sometimes it is not clear with that which one is the explanatory variable and which is the response variable.
+
+Sometimes teh two variables are related without either being explanatory or response variable.
+
+lurking variable --> not collected including the study
+
+most useful graph to show the relationship between 2 quantitative variable is teh scaater diagram.
+
+If a distinction exists in the two variables being studied ,plot the explanatory variable on teh horizontal scale , and plot 
+the response variable on the vertical scale .
+
+with teh help of scatterplot , each individual in the dataset is represented by a single point(x,y)
+in the x,y plane 
+
+2 variables have a relationship (linear ) in a scatter plot tend to fall along a more or less straight line .
+
+2 variables have a positive association if above-average values of one variable tend to accompany above average 
+values of teh other variables , and below average values tend to occur together.
+
