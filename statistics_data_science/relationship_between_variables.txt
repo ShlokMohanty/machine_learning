@@ -25,3 +25,17 @@ in the x,y plane
 2 variables have a positive association if above-average values of one variable tend to accompany above average 
 values of teh other variables , and below average values tend to occur together.
 
+two variables have a negative association if above average values of one variable tend to accompany 
+below -average values of the other variable, and vice versa.
+
+when the points in a scatter plot do roughly follow a straight line, the direction of the pattern tells how the variables respond to each other .
+
+positive slope ---> one vlue increases , so does the other value .
+
+negative slope----> as the values of one variable increase, the values of teh other variable decrease.
+
+some data exhibits a non linear(or curved )relationship .
+
+An excelllent example of a non linear data set is the relationship between the speed you drive your car and the corresponding gas mileage .
+
+This relationship is more quadratic in nature , with an example shown in the left image .
