@@ -1,0 +1,16 @@
+covariance --> is a measure of how much two random variables vary together .
+involve the relationship between 2 variables or data sets .
+Lie between - infinity  and +infinity 
+Measure of correlation 
+Provide direction of relationship 
+dependent on scale of variables 
+have dimensions 
+
+correlation --> it is a statistical measure that indicates how strongly two variables are related .
+involve teh relationship between multiple variables.
+lie between -1 and +1
+scaled version of covariance 
+provide direction and strength of relationship 
+independent on scale of variable 
+dimensions 
+
