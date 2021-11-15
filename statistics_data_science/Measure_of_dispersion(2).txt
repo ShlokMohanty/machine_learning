@@ -1,0 +1,83 @@
+population --> entire group for evaluating 
+sample ---> specific group for collecting data from 
+sample size < total size of population
+Reasons for sampling :
+1) Necessity : not possible to study the whole population due to its size or inaccessibility.
+2) Practically : easier and more efficient to collect data from a sample .
+3) Cost-effectiveness : fewer participant , laboratory , equipment  and researcher costs involved 
+4) Manageability: Storing and running statistical analyses on smaller datasets is easier and reliable.
+
+Changes in measure of spread :
+1) on changing our dataset from a population to a sample ,
+Our formulas for calculating variance and standard deviation also change.
+
+while calculating sample standard deviation , we divide  by n-1 instead of N.
+
+When we calculate the sample standard deviation we tend to underestimate the true variability in the population.\
+Our estimate of teh true population standard deviation is biased .
+
+to correct the bias we divide by n-1.
+
+to make the sample standard deviation an unbiased estimate of the population sd.
+
+why only n-1:
+
+this is because by using n-1 in the bumerator in the formula to calculate variance and standard deviation 
+will not be affected drastically.
+
+Another reason why statisticians decided to use n-1 was because of "degree of freedom".
+
+what is degree of freedom ?
+
+1) cookies --> 5 , friends --> 5 friends got a choice to select a cookie
+
+Inter Quartile Range :
+
+The interquartile range defines teh difference between the third and the first quartile.
+Quartiles are partitioned values that divide the whole series into 4 equal parts .
+
+Q1----> First quartile (lower) 
+Q2 ----> Second quartile 
+Q3 -----> Third Quartile (upper ) 
+
+Interquartile range formula :
+1) The difference between the upper and the lower quartile is known as the interquartile range .
+2) The formula for the interquartile range is given below :
+interquartile range = Upper quartile - Lower Quartile = Q3-Q1
+
+where Q1 is the first quartile and Q3 is teh third quartile of teh series.
+
+calculating :
+1) Arrange into increasing and decreasing order 
+2) count the given values. if odd, center value is median otherwise obtain the mean value for the two center values.
+this is known as Q2 value  , if even number of values , the median will be teh average of teh middle 2 values.
+
+Median equally cuts the given values into two equal parts.They are described as Q1 and Q3 parts .
+The median data values below the median represents Q1
+median data values above teh median value represents Q3.
+
+We can subtract the median values of Q1 and Q3.
+
+resulting valiue is the interquartile range .
+
+higher quartile - lower quartile = inter quartile range 
+
+Semi interquartile range :
+
+1) half of the iqr.
+2) 1/2 the difference between teh 75th percentile and the 25th percentile.
+3) semin interquartile range  = (Q3-Q1)/2
+
+need of IQR:
+
+1) IQR is utilized to calculate outliers in a datset .
+2) Formula for calculating outliers :
+  1) Outliers < Q1-(1.5 * IQR)
+  2) Outliers > Q3-(1.5*IQR)
+  
+  Box-Plots :
+A box-plot is used to display teh five number summary of a dataset.
+In a boxplot, we draw from teh first quartile to the third quartile .
+A vertical line goes through teh box at teh median.
+The whiskers go from each quartile to the minimum or maximum.
+
