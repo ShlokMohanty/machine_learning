@@ -1,0 +1,4 @@
+increasingly deeper networks it becomes imperative to understand how adding layers can increase the complexity 
+and expressiveness of teh network . it is the ability to design netwroj where adding layers makes networks 
+strictly more expressiveness of the network . Even more important is teh ability to design networks where 
+adding layers makes networks strictly more expressive rather than just different . t make progress we need bit of maths.
