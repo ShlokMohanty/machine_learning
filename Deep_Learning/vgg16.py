@@ -29,7 +29,7 @@ folders = glob('/content/drive/MyDrive/Colab Notebooks/ Original Images/Datasets
 # our layers - you can add more if you want
 x = Flatten()(resnet.output)
 # x = Dense(1000, activation='relu')(x)
-prediction = Dense(len(folders), activation='softmax')(x)
+prediction = Dense(7, activation='softmax')(x)
 
 # create a model object
 model = Model(inputs=resnet.input, outputs=prediction)
