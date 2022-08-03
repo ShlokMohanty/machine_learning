@@ -1,0 +1,13 @@
+https://www.kaggle.com/code/shivamburnwal/speech-emotion-recognition
+https://www.kaggle.com/code/ilyamich/mfcc-implementation-and-tutorial
+https://www.kaggle.com/code/seriousran/mfcc-feature-extraction-for-sound-classification
+https://www.kaggle.com/code/andradaolteanu/birdcall-recognition-eda-and-audio-fe
+https://www.kaggle.com/code/shivamburnwal/speech-emotion-recognition
+https://www.kaggle.com/code/shrutimechlearn/step-by-step-kmeans-explained-in-detail
+https://www.kaggle.com/code/victorambonati/unsupervised-anomaly-detection
+https://www.kaggle.com/code/kashnitsky/topic-7-unsupervised-learning-pca-and-clustering(must-read)
+https://www.kaggle.com/code/cdeotte/unsupervised-text-selection (must-read)
+https://www.kaggle.com/code/shivamb/data-science-glossary-on-kaggle (must-read)
+https://www.kaggle.com/code/prashant111/k-means-clustering-with-python (must-read)
+https://www.kaggle.com/code/dmitrylarko/kaggledays-sf-2-amazon-unsupervised-encoding (must_read)
+https://www.kaggle.com/code/karnikakapoor/customer-segmentation-clustering (must-read)
