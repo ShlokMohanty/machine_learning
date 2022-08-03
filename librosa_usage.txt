@@ -1,0 +1,42 @@
+all about librosa :
+1) audio and music processing in python 
+2) audio loading :
+	1) load(path, *[,sr,mono,offset, duration,... ]): floating point time series audio file
+	2) stream : streaming in fixed-length buffers  
+	3) to_mono : convert audio into mono by averaging samples across channels 
+	4) resample : 
+	5) get_duration : computation of the duration of an audio time series ,feature matrix
+	6) get_samplerate(path)
+	3) time-domain processing 
+	4) signal generation 
+	5) spectral representation 
+	6) phase recovery 
+	7) harmonics
+	8) magnitude scaling 
+	9) time unit conversion 
+	10) frequency unit conversion 
+	11) music notation 
+	12) frequency range generation 
+	13) pitch and tunning 
+3) Display 
+	1) Data visualization 
+	2) Axis formatting 
+4) Feature Extraction 
+	1) spectral features
+	2) Rythm features 
+	3) Feature manipulation 
+	4) Feature inversion 
+5) Onset detection 
+6) Beat and Tempo
+7) spectrogram decomposition 
+8) Effects 
+	1) Harmonic percussive source separation 
+	2) Time and Frequency 
+9) Temporal Segmentation 
+	1) Recurrence and self-similarity 
+	2) Temporal clustering 
+10) Sequential Modeling 
+	1) Seq alignment 
+	2) Viterbi decoding 
+	3) Transition matrices 
+ 
