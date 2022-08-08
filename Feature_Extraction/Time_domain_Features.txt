@@ -1,0 +1,49 @@
+#Types of feature extractions 
+#1) Time Domain Features 
+#2) Frequency domain features 
+#3) Spectrum Related features 
+
+#WaveForm Visualization 
+#amplitude of the sound vs the time 
+#libraries required : matplotlib , librosa 
+#
+
+#Spectrogram 
+#visual representation of the spectrum of frequencies of a signal as it varies with time 
+
+#time-frequency portraits of signals 
+#how energy levels vary with time .
+#visual way to represent the signal strength or loudness of a signal over time at various frequencies
+#spectgrogram depicted as a heatmap 
+#as an image with teh intensity shown by varying the color or brightness.
+#stft() --> converts data into short term fourier transform 
+
+#STFT --> we can determine the amplitude of various frequencies playing at a given time of an audio signal
+
+#Fourier-related transform for determination of the sinusoidal frequency and phase content of the
+#local sections of a signal as it changes over time.
+
+#method is to divide a longer time signal into shorter segments of equal length and then compute
+#the fourier transform separately on each shorter segments 
+#one then plots the changing spectrum as a function of time known as a spectrogram 
+#linear freq axis can be converted into the logarithmic axis 
+#RMSE --> Root mean squared error 
+#energy of the signal corresponds to its total magnitude 
+#For audio signals this roughly characterizes how loud the signal is (avg of the squares of magnitude of teh audio frames)
+#spectrogram gives us more accurate representation of energy
+#Reason ----> frames can be windowed 
+#MEL Spectrogram-->freq are converted to the mel scale. 
+
+#MEL SCALE: perceptual scale of pitches judged by listeners to be equal in distance from oe another.
+#unit of pitch was introduced such that equal distances in pitch sounded equally distant to the 
+
+#Zero Crossing Rate 
+#rate at which the signal changes its sign 
+#to determine whether a speech frame is voice, unvoiced or silent
+#Separation of Harmonic and Percussive Signals 
+#broadly classified into two classes 
+#Harmonic sound on the one hand side is what we perceive as pitched sound and what makes us hear melodies and chords
+#Percussive sound on the other hand is noise-like and usually seems from instrument onsets like the hit
+#on a drum or from consonants in speech .
+#hpss is harmonic-percussive source separation algorithm.
+#
