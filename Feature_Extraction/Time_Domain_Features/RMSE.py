@@ -1,0 +1,13 @@
+S, phase = librosa.magphase(librosa.stft(audio_astfly))
+S_db=librosa.amplitude_to_db(S, ref=np.max)
+rms = librosa.feature.rms(S=S)
+fig, ax = plt.subplots(nrows=2, sharex=True,figsize = (16, 6))
+times = librosa.times_like(rms)
+ax[0].semilogy(times, rms[0], label='RMS Energy')
+ax[0].set(xticks=[])
+ax[0].legend()
+ax[0].label_outer()
+librosa.display.specshow(S_db,
+                         y_axis='log', x_axis='time', ax=ax[1])
+ax[1].set(title='log Power spectrogram')
+plt.show()
