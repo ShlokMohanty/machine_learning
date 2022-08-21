@@ -1,0 +1,58 @@
+0=> 0 64=>1 128=>2
+48=>3 192=>4 144=>5
+142=>6 226=>7 168=>8
+
+-1=>0 0=>1 2=>2
+0.5=>3 4.5=>4 -1.5=>5
+1.5=>6 2=>7 -3=>8
+
+current pixel value is 192
+consider the  neighbor values 
+filter definition: 
+current pixel value = 192
+new pixel value = (-1*0) + (0*64) + (-2*128) + 
+(0.5*48) + (4.5*192) + (-1.5*144) +
+(1.5*42) + (2*226) + (-3*168)
+
+but imagine a very clear picture showing everything including the background and the images to focus on
+but if we multiply it with the kernel having values as 
+
+-1=>0 0=>1 1=>2 
+-2=>3 0=>4 2=>5 
+-1=>6 0=>7 1=>8
+ when mulltiplied with the kernel matrix removes everything except the vertical lines.
+ 
+-1=>0 -2=>1 -1=>2 
+0=>3 0=>4 0=>5 
+-1=>6 2=>7 1=>8
+ when multiplied with the matrix removes almost everything except the horizontal line.
+ 
+ which can then be combined which is something known as the pooling 
+ which groups up the pixels in the image and filters them down to a subset
+ 
+ 0 64           128 128
+ 48 192 : 192   144 144 : 144
+ 
+ 142 226         168 0
+ 255 0 : 255      0 64 : 168 
+
+192 144
+255 168
+the image will be reduced to a quarter of its original size but the features can still be maintaied 
+after beung filtered and maxpooled 
+the image size becomes one quarter of the original image size 
+ maxpooling in the sets of 2x2 will group the image into sets of 2x2 pixels 
+ and it picks the largest from each set .
+ where does these filters come from ?
+ when the image is passed as the input to the convolutional neural network a number of randomly 
+ initialized filters will pass over the image.
+ the results are then passed onto the next layer and matching is performed by the neural network.
+ overtime the filters that give us the image outputs that gives the best matches will be learned 
+ and the process is called the feature extraction.
+ 
+ example: how a convolution filter layer helps the computer visualize the things.
+ we can see across the top row that we actually have a shoe which has been filtered down to the sole 
+ and the silhouette of a shoe by making the filters learn what a shoe looks like.
+ 
+ 
+ 
