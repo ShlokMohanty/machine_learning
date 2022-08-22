@@ -1,0 +1,13 @@
+digital signal processing --> sequence of numbers that represent samples of a continuous variable 
+domain such as time, space, or frequency
+digital signal is represented as a pulse train 
+ DSP applications include audio and speech processing, sonar, radar and other sensor array processing, spectral density estimation, statistical signal processing, digital image processing, data compression, video coding, audio coding, 
+ image compression, signal processing for telecommunications, control systems, biomedical engineering, and seismology, among others.
+ application of digital computation to signal processing allows for many advantages over analog processing in many applications, such as error detection and correction in transmission as well as data compression.[5] Digital signal processing is also fundamental to digital technology, 
+ such as digital telecommunication and wireless communications.[6] DSP is applicable to both streaming data and static (stored) data.
+ The surrounding samples may be identified with respect to time or space. The output of a linear digital filter to any given input may be calculated by convolving the input signal with an impulse response.
+ fourier transform helps convert the time and space domain to the frequency domain.
+ Fourier transform is converted to the power spectrum, which is the magnitude of each frequency component squared.
+ 
+spectrum ---> 
+center of mass --> 
