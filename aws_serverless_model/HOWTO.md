@@ -9,4 +9,5 @@ The remainder of this document explains how to write SAM templates and deploy th
 [aws-sam-cli](https://github.com/aws/aws-sam-cli) to get started
 ```linux
 $ sam init --runtime python3.7
-
+## Packing Artifacts 
+### STEP-1 : upload your Lambda function code zip and OpenAPI file to S3.
