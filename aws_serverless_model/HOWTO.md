@@ -1,1 +1,1 @@
-#How to create serverless applications using AWS SAM
+# How to create serverless applications using AWS SAM
