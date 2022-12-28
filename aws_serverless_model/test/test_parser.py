@@ -5,3 +5,4 @@ from samtranslator.plugins import LifeCycleEvents
 from samtranslator.model.exceptions import InvalidDocumentationException, InvalidTemplateException,InvalidResourceException
 
 class TestParser(TestCase):
+  
