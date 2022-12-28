@@ -55,4 +55,4 @@ class TestParser(TestCase):
         with self.assertRaises(InvalidDocumentException):
             parser._validate({"Resources": {}}, {})
 
-      
+      //
