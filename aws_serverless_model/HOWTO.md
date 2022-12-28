@@ -12,3 +12,4 @@ $ sam init --runtime python3.7
 ```
 ## Packing Artifacts 
 ### STEP-1 : upload your Lambda function code zip and OpenAPI file to S3.
+### STEP-2 : set the `CodeUri` and `DefinitionUri`
