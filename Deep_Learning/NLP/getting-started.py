@@ -20,3 +20,20 @@ print(example_train_vectors[0].todense())
 #0 0 0 0 1  0 0 0 0 0 0 1  0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0  0 0 0 0 0 0 1 1 0 1 0]]
 #the above vector tells us that it has 54 unique words (or "tokens")
 
+train_vectors = count_vectorizer.fit_transform(train_df["text"])
+# note that we are not using .fit_transform() here. Using just .transform()
+## makes sure that the tokens in the train vectors are the only ones mapped to the test vectors 
+# the train and test vectors use the same segt of tokens 
+#the trai and the test vectors use the same set of tokens 
+test_vectors = count_vectorizer.transform(test_df["text"])
+
+#our model
+clf= linear_model.RidgeClassifier()
+#metric used here is F1 
+scores = model_selection.cross_val_score(clf, train_vectors, train_df["target"], cv=3, scoring="f1")
+scores
+clf.fit(train_vectors, train_df["target"])
+sample_submission = pd.read_csv("C:\Users\Shlok Mohanty\Downloads\submissions.csv")
+sample_submission["target"] = clf.predict(test_vectors)
+sample_submission.head()
+sample_submission.to_csv("submission.csv", index=False)
