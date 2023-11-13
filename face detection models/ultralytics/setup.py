@@ -75,10 +75,10 @@ setup(
 
       ],
     'export' : [
-        'coremltools>=7.0',
-        'openvino-dev>=2023.0',
-        'tensorflow<=2.13.1',
-        'tensorflowjs',
+        'coremltools>=7.0', # CoreML export 
+        'openvino-dev>=2023.0', #OpenVINO export 
+        'tensorflow<=2.13.1', #TF exports (-cpu, -aarch64, -macos) 
+        'tensorflowjs', #TF.js export 
       
     ],},
 
