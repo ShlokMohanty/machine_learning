@@ -1,0 +1,13 @@
+Try-1 : 
+
+from pathlib import Path 
+p = Path('D://Model')
+print(p.exists()) #to check if the folder already has been uploaded for confirmation 
+print(p.is_file())
+print(p.read_text())
+
+with p.open() as f:
+  f.read_line()
+
+alernatively, prefixing the string with r disables escaping allowing direct pasting of the path 
+p = Path(r'D://Model')
