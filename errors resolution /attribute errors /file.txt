@@ -1,0 +1,3 @@
+generator object has no attribute 'inputs':
+
+try-1: 
