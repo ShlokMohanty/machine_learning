@@ -11,3 +11,9 @@ with p.open() as f:
 
 alernatively, prefixing the string with r disables escaping allowing direct pasting of the path 
 p = Path(r'D://Model')
+
+Try-2: [Error Resolved]:
+for dirname, _, filenames in os.walk("D://Model"):
+  for filename in filenames:
+      print(os.path.join(dirname, filename))
+  
