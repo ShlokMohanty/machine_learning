@@ -1,0 +1,25 @@
+Defining a Perceptron:
+Threshold logic unit or linear threshold unit , instead of binaries like yes or no they are now numbers 
+each input is associated along with a weight.TLU computes a weighted sum of the inputs at the end it 
+applies a step function and output the result: h(x) = step(z), where Z = X ^ T * W
+heaviside (z) = if z < 0 then Z = 0 or else if Z >= 0 then Z = 1.
+sgn(Z) = if Z < 0 then Z=-1 or else if Z = 0 then Z = 0 or else if Z > 0 Z= +1
+
+fully connected layer when all the neurons of the layer are connected to every neuron in the previous 
+layer it is called a fully connected layer or a dense layer.
+
+Multi output classifier : because the perceptron can classify three different binary classes which makes it a 
+multi output classifier
+
+h(X) = phi(XW + b)
+phi --> activation function 
+
+training of the perceptrons: the weights between the connections between the 2 neurons is increased 
+whenever they have the same output.
+Perceptron is fed one training instance at a time, and for each instance it makes it predictions 
+
+w(next) = w(prev) + learning_rate(difference of the actual and predicted output) * x(i)
+
+decision boundary of each output neuron is linear , perceptrons are incapable of learning complex patterns 
+if the training instances are linearly separable this algotrithm would converge to a solution 
+perceptron convergence theorem.
